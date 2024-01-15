@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.highlight{
+    margin: 5px 7px 0px 0px;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    /* background-color: red; */
+    background-color: #FFB300;
+}
+
+.highlight span a{
+    color: #2A27E9;
+    text-decoration: none;
+}
+
+.navbar{
+    /* background-color: #11ffee00; */
+    background-color: #f2f2f3;
+    font-size: medium;
+    display:inline-block;
+    /* padding-left: 40px; */
+    font-size: 18px;
+    color: #797979;
+    justify-content: space-between;
+    padding: 20px 92px 20px 0px;
+   /* padding: 30px; */
+}
+.msg-area{
+    margin-left: 83px;
+    margin-right: 379px;
+    letter-spacing: -0.1px;
+}
+.search_bar i{
+    padding: 5px 0px 0px 1px;
+}
+.nav_menu{
+    letter-spacing: 0.5px;
+    padding-left: 18px;
+}
+.nav_menu a{
+    color: #797979;
+    text-decoration: none;
+}
+.nav_menu2{
+    letter-spacing: 0.5px;
+    padding-left: 23px;
+}
+.nav_menu2 a{
+    color: #797979;
+    text-decoration: none;
+}
+.navbar ul{
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding-right: 30px;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color:blue;
+    margin-left: 81px;
+}
+.logo_color{
+    background-color: blue;
+    padding: 0px 5px;
+    font-weight: 500;
+    color: #f2f2f3;
+    border-radius: 10%;
+}
+.store_logo{
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-left: 4px;
+}
+.main{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 30px 0px;
+}
+.main ul{
+    display: flex;
+    list-style: none;
+}
+.main ul li a{
+    text-decoration: none;
+    /* padding-right:12%; */
+}
+.product_menus{
+    padding-top: 0%;
+}
+.product_menus ul{
+    display: flex;
+}
+.product_menus ul li{
+    list-style: none;
+    padding: 20px 0px 40px 90px
+}
+.product_menus ul li a{
+     text-decoration: none;
+}
+header{
+    background: url('assets/img/bestore-sample-header.PNG');
+    background-size: 1535px;
+    background-repeat: no-repeat;
+    min-height: 381px;
+    min-width: 1535px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#utility{
+    padding-left: 100px;
+    margin-top: 6px;
+}
+
+.utility_logo{
+    padding: 10px 15px 0px 15px;
+}
+
+.search_box{
+    border: 1px solid;
+    max-height: 45px;
+    border-radius: 5px;
+    margin: 4px 50px 0px 74px;
+}
+
+.search_box form{
+    padding: 9px 5px 0px 12px;
+}
+
+.search_box form input{
+    border: 0;
+}
+
+.search_box form input:focus {
+    outline-color: #FFFFFF ;
+}
